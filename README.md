@@ -1,2 +1,2 @@
-# campion-gardul
-https://campion.edu.ro/arhiva/index.php?page=problem&action=view&id=914
+# python-linkProblema
+Un program care obtine linkul unei probleme de pe site-ul campion.
