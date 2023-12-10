@@ -16,9 +16,13 @@ if __name__ == "__main__":
   if len(sys.argv) != 2:
     print("Folosire: python link.py [numeProblema]")
     sys.exit(1)
-  link = linkProblema(sys.argv[1])
+  numeProblema = sys.argv[1]
+  link = linkProblema(numeProblema)
   if link is None:
     print("Din pacate ceva nu a functionat, te rog sa incerci din nou.")
   else:
-    print(link)
+    with open("README.md", "w") as f:
+      text = "# campion-" + numeProblema + '\n' + link
+      f.write(text)
+    print("Succes! Acum scrie: `cat README.md` pentru a vedea rezultatul.")
 

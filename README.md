@@ -1,5 +1,2 @@
-# python-linkProblema
-
-python3 link.py [numeProblema]
-
-Acest program cauta si returneaza linkul unei probleme de pe site-ul campion.
+# campion-gardul
+https://campion.edu.ro/arhiva/index.php?page=problem&action=view&id=914
